@@ -1,0 +1,16 @@
+ 
+{
+  "total_findings": 1,
+  "high_count": 1,
+  "medium_count": 0,
+  "low_count": 0,
+  "findings": [
+    {
+      "severity": "HIGH",
+      "title": "Insecure use of eval()",
+      "description": "The eval() function is used to evaluate the expression in the entry field. This can lead to code injection attacks if the input is not properly sanitized.",
+      "line_number": 43,
+      "suggested_fix": "Use a safer method to evaluate the expression, such as using a parsing library or writing a custom parser."
+    }
+  ]
+}
